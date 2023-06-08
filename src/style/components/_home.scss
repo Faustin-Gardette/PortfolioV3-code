@@ -1,0 +1,229 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  gap: 5rem;
+
+  .home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+
+    .home-text {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      h2 {
+        font-family: $font1;
+        font-size: 3rem;
+
+        @media screen and (max-width: 1000px) {
+          font-size: 2.5rem;
+        }
+
+        @media screen and (max-width: 925px) {
+          font-size: 2rem;
+        }
+
+        @media screen and (max-width: 420px) {
+          text-align: center;
+        }
+
+        @media screen and (max-width: 390px) {
+          font-size: 1.5rem;
+        }
+
+        @media screen and (max-height: 890px) {
+          font-size: 1.3rem;
+        }
+      }
+
+      p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+
+        @media screen and (max-width: 1000px) {
+          font-size: 1.2rem;
+        }
+
+        @media screen and (max-width: 925px) {
+          font-size: 1rem;
+        }
+
+        @media screen and (max-width: 735px) {
+          text-align: center;
+          padding: 0 50px;
+        }
+
+        @media screen and (max-width: 500px) {
+          padding: 0 25px;
+        }
+
+        @media screen and (max-width: 430px) {
+          padding: 0 1px;
+        }
+
+        @media screen and (max-height: 890px) {
+          font-size: 0.8rem;
+        }
+      }
+
+      ul {
+        font-size: 3rem;
+
+        a {
+          color: black;
+          margin-right: 20px;
+
+          &:hover {
+            color: $blue;
+            transition: all 0.5s;
+          }
+        }
+
+        @media screen and (max-width: 1000px) {
+          font-size: 2.5rem;
+        }
+        @media screen and (max-width: 925px) {
+          font-size: 2rem;
+        }
+
+        @media screen and (max-height: 890px) {
+          font-size: 1.5rem;
+        }
+      }
+
+      @media screen and (max-width: 735px) {
+        align-items: center;
+      }
+      @media screen and (max-width: 500px) {
+        gap: 1rem;
+      }
+
+      @media screen and (max-height: 960px) {
+        gap: 1rem;
+      }
+    }
+
+    img {
+      width: 300px;
+      border-radius: 100px;
+
+      @media screen and (max-width: 900px) {
+        width: 250px;
+      }
+
+      @media screen and (max-width: 640px) {
+        width: 200px;
+        border-radius: 75px;
+      }
+
+      @media screen and (max-height: 890px) {
+        width: 120px;
+        border-radius: 50px;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      gap: 5rem;
+    }
+
+    @media screen and (max-width: 735px) {
+      flex-direction: column-reverse;
+    }
+
+    @media screen and (max-width: 450px) {
+      gap: 1rem;
+    }
+
+    @media screen and (max-height: 960px) {
+      gap: 1rem;
+    }
+  }
+
+  .home-tech-content {
+    display: flex;
+    padding: 0 50px;
+
+    .home-tech {
+      display: flex;
+      align-items: center;
+      gap: 7rem;
+
+      h6 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-family: $font1;
+
+        @media screen and (max-width: 875px) {
+          font-size: 1.2rem;
+        }
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        li {
+          display: flex;
+          justify-content: center;
+          background-color: white;
+          padding: 15px;
+          border-radius: 150px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+          img {
+            width: 50px;
+
+            @media screen and (max-width: 950px) {
+              width: 40px;
+            }
+            @media screen and (max-width: 875px) {
+              width: 30px;
+            }
+            @media screen and (max-width: 500px) {
+              width: 25px;
+            }
+          }
+        }
+
+        @media screen and (max-width: 735px) {
+          gap: 1.5rem;
+        }
+        @media screen and (max-width: 500px) {
+          gap: 1rem;
+        }
+        @media screen and (max-width: 450px) {
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      @media screen and (max-width: 875px) {
+        gap: 3rem;
+      }
+
+      @media screen and (max-width: 640px) {
+        flex-direction: column;
+      }
+
+      @media screen and (max-width: 430px) {
+        gap: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Site Vitrine",
+    "languages": ["React", "Sass"],
+    "infos": "Site vitrine de location de voiture. Permet de comparer plusieurs types de voitures ainsi que d'en reserver.",
+    "img": "../assets/speed-car-location.png",
+    "link": "https://speed-car-location.netlify.app/"
+  },
+
+  {
+    "id": 2,
+    "title": "App Cinéma",
+    "languages": ["React", "NextJs"],
+    "infos": "Projet d'application de cinéma. Utilisation d'une API, avec une barre de recherche et un onglet 'Coups de coeur' pour stocker des films à revoir.",
+    "img": "../assets/ciné.png",
+    "link": "https://glowing-mandazi-59d109.netlify.app"
+  },
+
+  {
+    "id": 2,
+    "title": "App Crypto",
+    "languages": ["React", "Redux"],
+    "infos": "Projet d'application de cryptomonnaie. Utilisation d'une API avec l'ajout de Redux pour choisir les différents catégories de cryptomonnaies. ",
+    "img": "../assets/crypto.PNG",
+    "link": "https://cerulean-longma-0cfddc.netlify.app"
+  }
+]
